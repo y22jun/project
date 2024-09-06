@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/groom111
+    username: sin-yejun
+    password: dpwnstls0612
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: update
+  security:
+    user:
+      password: my_custom_password
+
+jwt:
+  secret: 0f512cc510dbfce58636b914c018024a1b922d2883aa6d1bbdd091b4e7c6183977789765asfads76asdvaw43awdgfaalsdihvoawebnrkgjsadhivuawk3r2yri2a3i7raiw3griw37irawufasasndga9w48gajwo4gijawo04e9gj0aw4oegiaw049gw4aeog0aw94jgawo4egi0aw4jg9awo4g00aw94egwaioerjatow409bdfsobi9soe49oesnjr4lk44nj4lgosaef9bsd0f9buseo4ijotsejrg

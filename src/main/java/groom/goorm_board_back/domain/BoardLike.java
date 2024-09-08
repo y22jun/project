@@ -23,5 +23,5 @@ public class BoardLike {
     @ManyToOne
     @JoinColumn(name = "board_id")
     private Board board;
-
+//
 }
